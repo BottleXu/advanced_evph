@@ -1,6 +1,34 @@
 # Advanced EVPH: Advanced Omni-directional Vector Polar Histogram for Robust Navigation in Crowded Environments
 
-Additional results for our paper "Advanced EVPH: Advanced Omni-directional Vector Polar Histogram for Robust Navigation in Crowded Environments" in IEEE Robotics and Automation Letters(RA/L). This repostiory contains our experimental results of paper. \
+This repostiory introduces our paper "Advanced EVPH: Advanced Omni-directional Vector Polar Histogram for Robust Navigation in Crowded Environments" in IEEE Robotics and Automation Letters(RA/L). 
 
-# Introduction
-We propose an Advanced EVPH to improve navigational performance significantly in crowded environments. Our 
+## Introduction
+We propose an Advanced EVPH to improve navigational performance significantly in crowded environments.
+
+## Method Overview
+
+## System Configuration and Experiment Setup
+
+We selected Arena-Bench[^1] to evaluate a performance of the proposed method. 
+The performance is compared with conventional methods as follows:
+- Dynamic Window Approach (DWA),
+- Timed Elastic Band (TEB),
+- Reciprocal Collision Avoidance (RVO),
+- Socially Attentive Reinforcement Learning (SARL*)[^2],
+- Enhanced Vector Polar Histogram (VPH+),
+- Extended Vector Polar Histogram (EVPH, our previous work).
+
+We use Clearpath Jackal with RPLiDAR A3 range sensor.
+
+Our simulatuion environment is Ubuntu 20.04 with ROS Noetic, Intel Core i7 10700k, 16GB RAM, Nvidia RTX 3060. \
+In real-world experiment, we use a laptop to execute robot framework (SLAM, path planning) with Ubuntu 20.04 with ROS Noetic, AMD Ryzen 5500U, 16GB RAM, Radeon Graphics.
+
+## Simulation I
+Video
+## Simulation II
+Video
+## Real-World
+Video
+## Reference
+[^1]: Arena-bench
+[^2]: SARL
