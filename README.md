@@ -21,6 +21,7 @@ The performance is compared with conventional methods as follows:
 We use Clearpath Jackal with RPLiDAR A3 range sensor.
 
 Our simulatuion environment is Ubuntu 20.04 with ROS Noetic, Intel Core i7 10700k, 16GB RAM, Nvidia RTX 3060. \
+
 In real-world experiment, we use a laptop to execute robot framework (SLAM, path planning) with Ubuntu 20.04 with ROS Noetic, AMD Ryzen 5500U, 16GB RAM, Radeon Graphics.
 
 ## Simulation I
