@@ -7,7 +7,7 @@ This repostiory introduces our paper "Advanced EVPH: Advanced Omni-directional V
 We propose an Advanced EVPH to improve navigational performance significantly in crowded environments.
 
 ## Method Overview
-
+<img src="figures/flowchart.png" title="flowchart" alt="flowchart"></img>
 ## System Configuration and Experiment Setup
 
 We selected Arena-Bench[^1] to evaluate a performance of the proposed method. 
@@ -20,7 +20,8 @@ The performance is compared with conventional methods as follows:
 - Extended Vector Polar Histogram (EVPH, our previous work).
 
 We use Clearpath Jackal with RPLiDAR A3 range sensor.
-![Robot](figures/Robot.png)
+<!-- ![Robot](figures/robot.png) -->
+<img src="figures/robot.png" width="40%" height="40%" title="robot" alt="robot"></img>
 
 Our simulatuion environment is Ubuntu 20.04 with ROS Noetic, Intel Core i7 10700k, 16GB RAM, Nvidia RTX 3060. 
 
