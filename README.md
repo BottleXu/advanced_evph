@@ -57,8 +57,6 @@ of 9.2 Hz, ensuring real-time performance.
 
 Video demonstration of the real-world experiment is provided [here](https://youtube.com "Simulation II link")
 
-
-
 ## Reference
 [^1]: Arena-bench
 [^2]: SARL
