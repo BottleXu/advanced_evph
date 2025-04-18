@@ -10,12 +10,12 @@ We propose an Advanced EVPH to improve navigational performance significantly in
 <img src="figures/flowchart.png" title="flowchart" alt="flowchart"></img>
 ## System Configuration and Experiment Setup
 
-We selected Arena-Bench[^1] to evaluate a performance of the proposed method. 
+We selected [Arena-Bench](https://github.com/ignc-research/arena-bench "Arena-Bench") to evaluate a performance of the proposed method. 
 The performance is compared with conventional methods as follows:
-- Dynamic Window Approach (DWA),
-- Timed Elastic Band (TEB),
-- Reciprocal Collision Avoidance (RVO),
-- Socially Attentive Reinforcement Learning (SARL*)[^2],
+- Dynamic Window Approach ([DWA](https://wiki.ros.org/dwa_local_planner "dwa_local_planner")),
+- Timed Elastic Band ([TEB](https://wiki.ros.org/teb_local_planner "teb_local_planner")),
+- Reciprocal Collision Avoidance ([RVO](https://gamma.cs.unc.edu/RVO2 "RVO")),
+- Socially Attentive Reinforcement Learning ([SARL*](https://github.com/LeeKeyu/sarl_star "sarl_star")),
 - Enhanced Vector Polar Histogram (VPH+),
 - Extended Vector Polar Histogram (EVPH, our previous work).
 
@@ -58,6 +58,4 @@ of 9.2 Hz, ensuring real-time performance.
 
 Video demonstration of the real-world experiment is provided [here](https://youtube.com "Simulation II link")
 
-## Reference
-[^1]: Arena-bench
-[^2]: SARL
+
