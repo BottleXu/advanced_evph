@@ -33,7 +33,12 @@ The green and red circles represent the start and goal points, respectively, whi
 Video demonstration of the first simulation is provided [here](https://youtube.com "Simulation I link")
 
 ## Simulation II
-Video
+![Simulation II environment](figures/s2_results.png)
+![Simulation II velocity plot](figures/s2_discussion.png)
+The green and red circles represent the start and goal points, respectively, while gray and dark blue arrows indicate the paths of people moving at 0.2 m/s and 0.3 m/s. The environment includes a narrow path surrounded by static obstacles and crowds. In the second simulation, our proposed method, AEVPH reaches the shortest traveling time (53.01 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0092 m/s).
+
+Video demonstration of the second simulation is provided [here](https://youtube.com "Simulation II link")
+
 ## Real-World
 Video
 ## Reference
