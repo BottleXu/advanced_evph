@@ -28,10 +28,9 @@ In real-world experiment, we use a laptop to execute robot framework (SLAM, path
 ## Simulation I
 ![Simulation I environment](figures/s1_results.png)
 ![Simulation I velocity plot](figures/s1_discussion.png)
-The green and red circles represent the start and goal points, respectively, while gray and dark blue arrows indicate the paths of people moving at 0.2 m/s and 0.3 m/s. The environment includes 18 moving people and five static obstacles.
-In the first simulation, our proposed method, AEVPH reaches the shortest traveling time (49.51 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0064 m/s).
+The green and red circles represent the start and goal points, respectively, while gray and dark blue arrows indicate the paths of people moving at 0.2 m/s and 0.3 m/s. The environment includes 18 moving people and five static obstacles. In the first simulation, our proposed method, AEVPH reaches the shortest traveling time (49.51 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0064 m/s).
 
-
+Video demonstration of the first simulation is provided [here](https://youtube.com "Simulation I link")
 
 ## Simulation II
 Video
