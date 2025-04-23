@@ -42,6 +42,16 @@ The green and red circles represent the start and goal points, respectively, whi
 Video demonstration of the second simulation is provided [here](https://youtu.be/zJltNCrI11U "Simulation II link")
 
 ## Real-World
+In the real-world experiment, we adjusted to realistic velocity constraints as below:
+| Parameters  | Value | 
+| ------------- | -------------: |
+| max vel x  |0.3 m/s  | 
+|  min vel x  | -0.3 m/s  |
+| acc lim x  | 0.25 m/s^2 | 
+| acc lim theta  | 0.5 rad/s^2  | 
+
+Other parameters are same as the  simulation scenarios.
+
 ![Real-World](figures/real_result.png)
 The green and red circles represent the robot’s start and goal positions, respectively. The dark blue circle indicates the person’s initial position, and the arrow shows their walking path. In the real-world experiment, our proposed method, AEVPH reaches the shortest traveling time (36.46 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0049 m/s). Also, it operated at an average frequency
 of 9.2 Hz, ensuring real-time performance.
