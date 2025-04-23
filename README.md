@@ -32,14 +32,14 @@ In real-world experiment, we use a laptop to execute robot framework (SLAM, path
 ![Simulation I velocity plot](figures/s1_discussion.png)
 The green and red circles represent the start and goal points, respectively, while gray and dark blue arrows indicate the paths of people moving at 0.2 m/s and 0.3 m/s. The environment includes 18 moving people and five static obstacles. In the first simulation, our proposed method, AEVPH reaches the shortest traveling time (49.51 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0064 m/s).
 
-Video demonstration of the first simulation is provided [here](https://youtube.com "Simulation I link")
+Video demonstration of the first simulation is provided [here](https://youtu.be/YSpLt1Nwoho "Simulation I link")
 
 ## Simulation II
 ![Simulation II environment](figures/s2_results.png)
 ![Simulation II velocity plot](figures/s2_discussion.png)
 The green and red circles represent the start and goal points, respectively, while gray and dark blue arrows indicate the paths of people moving at 0.2 m/s and 0.3 m/s. The environment includes a narrow path surrounded by static obstacles and crowds. In the second simulation, our proposed method, AEVPH reaches the shortest traveling time (53.01 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0092 m/s).
 
-Video demonstration of the second simulation is provided [here](https://youtube.com "Simulation II link")
+Video demonstration of the second simulation is provided [here](https://youtu.be/zJltNCrI11U "Simulation II link")
 
 ## Real-World
 ![Real-World](figures/real_result.png)
@@ -56,6 +56,9 @@ of 9.2 Hz, ensuring real-time performance.
 | EVPH  | N  | 10.76 | 38.02 |
 | **Proposed**  | N  | 10.66 | **36.46** 
 
-Video demonstration of the real-world experiment is provided [here](https://youtube.com "Simulation II link")
+Video demonstration of the real-world experiment is provided [here](https://youtu.be/FMZEZxqv26o "real-world experiment link")
+
+
+
 
 
