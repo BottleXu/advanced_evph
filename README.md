@@ -17,7 +17,7 @@ The performance is compared with conventional methods as follows:
 - Reciprocal Collision Avoidance ([RVO](https://gamma.cs.unc.edu/RVO2 "RVO")),
 - Socially Attentive Reinforcement Learning ([SARL*](https://github.com/LeeKeyu/sarl_star "sarl_star")),
 - Enhanced Vector Polar Histogram (VPH+),
-- Extended Vector Polar Histogram (EVPH, our previous work).
+- Extended Vector Polar Histogram (EVPH).
 
 We use Clearpath Jackal with RPLiDAR A3 range sensor.
 <!-- ![Robot](figures/robot.png) -->
