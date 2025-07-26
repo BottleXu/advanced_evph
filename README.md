@@ -3,7 +3,7 @@
 This repostiory introduces our paper "Advanced EVPH: Advanced Omni-directional Vector Polar Histogram for Robust Navigation in Crowded Environments" in IEEE Robotics and Automation Letters(RA/L). 
 
 ## Introduction
-<img src="figures/demo_1.gif" width="30%" height="20%" title="demo" alt="demo"></img>
+<img src="figures/additional_demo0.gif" width="30%" height="20%" title="aevph_thumbnail" alt="aevph_thumbnail"></img>
 
 We propose an Advanced EVPH to improve navigational performance significantly in crowded environments.
 
@@ -70,7 +70,9 @@ of 9.2 Hz, ensuring real-time performance.
 Video demonstration of the real-world experiment is provided [here](https://youtu.be/FMZEZxqv26o "real-world experiment link")
 
 ## Additional Cases
-<img src="figures/demo_1.gif" width="30%" height="20%" title="demo" alt="demo"></img>
+<img src="figures/additional_demo0.gif" width="30%" height="20%" title="aevph_thumbnail" alt="aevph_thumbnail"></img>
+<img src="figures/additional_demo1.gif" width="30%" height="20%" title="aevph_demo_1" alt="aevph_demo_1"></img>
+<img src="figures/additional_demo2.gif" width="30%" height="20%" title="aevph_demo_2" alt="aevph_demo_2"></img>
 
 ## Citation
 
