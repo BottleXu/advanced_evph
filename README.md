@@ -4,6 +4,7 @@ This repostiory introduces our paper "Advanced EVPH: Advanced Omni-directional V
 
 ## Introduction
 <img src="figures/demo_1.gif" width="30%" height="20%" title="demo" alt="demo"></img>
+
 We propose an Advanced EVPH to improve navigational performance significantly in crowded environments.
 
 ## Method Overview
@@ -19,7 +20,7 @@ The performance is compared with conventional methods as follows:
 - Enhanced Vector Polar Histogram (VPH+),
 - Extended Vector Polar Histogram (EVPH).
 
-We use Clearpath Jackal with RPLiDAR A3 range sensor.
+We use Clearpath Jackal with a single RPLiDAR A3 range sensor.
 <!-- ![Robot](figures/robot.png) -->
 <img src="figures/robot.png" width="40%" height="40%" title="robot" alt="robot"></img>
 
