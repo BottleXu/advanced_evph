@@ -1,6 +1,6 @@
 # Advanced EVPH: Advanced Omni-directional Vector Polar Histogram for Robust Navigation in Crowded Environments
 
-This repostiory introduces our paper "Advanced EVPH: Advanced Omni-directional Vector Polar Histogram for Robust Navigation in Crowded Environments" in IEEE Robotics and Automation Letters(RA/L). 
+This repostiory introduces our paper "Advanced EVPH: Advanced Omni-directional Vector Polar Histogram for Robust Navigation in Crowded Environments" in IEEE Robotics and Automation Letters(RA-L). 
 
 ## Introduction
 <img src="figures/additional_demo0.gif" width="30%" height="20%" title="aevph_thumbnail" alt="aevph_thumbnail"></img>
