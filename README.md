@@ -74,7 +74,7 @@ Video demonstration of the real-world experiment is provided [here](https://yout
 <img src="figures/additional_demo0.gif" width="40%" height="30%" title="aevph_thumbnail" alt="aevph_thumbnail"></img>
 <img src="figures/additional_demo1.gif" width="40%" height="30%" title="aevph_demo_1" alt="aevph_demo_1"></img>
 
-In both randomized and structed scenarios, our proposed method, AEVPH navigates without collisons.
+In both randomized and structed scenarios, our proposed method, AEVPH navigates without collisions.
 
 ## Citation
 
