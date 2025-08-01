@@ -3,7 +3,7 @@
 This repostiory introduces our paper "Advanced EVPH: Advanced Omni-directional Vector Polar Histogram for Robust Navigation in Crowded Environments" in IEEE Robotics and Automation Letters(RA-L). 
 
 ## Introduction
-<img src="figures/additional_demo0.gif" width="30%" height="20%" title="aevph_thumbnail" alt="aevph_thumbnail"></img>
+<img src="figures/additional_demo0.gif" width="35%" height="35%" title="aevph_thumbnail" alt="aevph_thumbnail"></img>
 
 We propose an Advanced EVPH to improve navigational performance significantly in crowded environments.
 
@@ -31,16 +31,16 @@ In real-world experiment, we use a laptop to execute robot framework (SLAM, path
 ## Simulation I
 ![Simulation I environment](figures/s1_results.png)
 ![Simulation I velocity plot](figures/s1_discussion.png)
-The green and red circles represent the start and goal points, respectively, while gray and dark blue arrows indicate the paths of people moving at 0.2 m/s and 0.3 m/s. The environment includes 18 moving people and five static obstacles. In the first simulation, our proposed method, AEVPH reaches the shortest traveling time (49.51 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0064 m/s).
+The green and red circles represent the start and goal points, respectively. The gray and dark blue arrows indicate the paths of people moving at 0.2 and 0.3 m/s, respectively.The environment includes 18 moving people and five static obstacles. In Simulation I, our proposed method, AEVPH reaches the shortest traveling time (49.51 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0064 m/s).
 
-Video demonstration of the first simulation is provided [here](https://youtu.be/YSpLt1Nwoho "Simulation I link")
+Video demonstration of Simulation I is provided [here](https://youtu.be/YSpLt1Nwoho "Simulation I link")
 
 ## Simulation II
 ![Simulation II environment](figures/s2_results.png)
 ![Simulation II velocity plot](figures/s2_discussion.png)
-The green and red circles represent the start and goal points, respectively, while gray and dark blue arrows indicate the paths of people moving at 0.2 m/s and 0.3 m/s. The environment includes a narrow path surrounded by static obstacles and crowds. In the second simulation, our proposed method, AEVPH reaches the shortest traveling time (53.01 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0092 m/s).
+The green and red circles represent the start and goal points, respectively. The gray and dark blue arrows indicate the paths of people moving at 0.2 and 0.3 m/s, respectively. The environment includes a narrow path surrounded by static obstacles and crowds. In Simulation II, our proposed method, AEVPH reaches the shortest traveling time (53.01 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0092 m/s).
 
-Video demonstration of the second simulation is provided [here](https://youtu.be/zJltNCrI11U "Simulation II link")
+Video demonstration of Simulation II is provided [here](https://youtu.be/zJltNCrI11U "Simulation II link")
 
 ## Real-World
 In the real-world experiment, we adjusted to realistic velocity constraints as below:
@@ -51,11 +51,10 @@ In the real-world experiment, we adjusted to realistic velocity constraints as b
 | acc lim x  | 0.25 m/s^2 | 
 | acc lim theta  | 0.5 rad/s^2  | 
 
-Other parameters are same as the  simulation scenarios.
+Other parameters are same as simulation scenarios.
 
 ![Real-World](figures/real_result.png)
-The green and red circles represent the robot’s start and goal positions, respectively. The dark blue circle indicates the person’s initial position, and the arrow shows their walking path. In the real-world experiment, our proposed method, AEVPH reaches the shortest traveling time (36.46 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0049 m/s). Also, it operated at an average frequency
-of 9.2 Hz, ensuring real-time performance.
+The green and red circles represent the start and goal points of the robot, respectively. The dark blue circle indicates the initial position of the persons, and the arrow shows their walking path. In the real-world experiment, our proposed method, AEVPH reaches the shortest traveling time (36.46 s), and ensures smoother and more efficient navigation through consistent forward movement (0.0049 m/s). Also, it operated at an average frequency of 9.2 Hz, ensuring real-time performance.
 
 | Methods  | Collision(Y/N) | Traveling distance(m)  | Traveling time(s) |
 | ------------- | :-------------: | -------------: | -------------: |
@@ -70,11 +69,18 @@ of 9.2 Hz, ensuring real-time performance.
 Video demonstration of the real-world experiment is provided [here](https://youtu.be/FMZEZxqv26o "real-world experiment link")
 
 ## Additional Cases in Real-World
-### Participants with unstructured movement patterns
 <!-- <img src="figures/additional_demo2.gif" width="30%" height="20%" title="aevph_demo_2" alt="aevph_demo_2"></img> -->
-<img src="figures/additional_demo0.gif" width="40%" height="30%" title="aevph_thumbnail" alt="aevph_thumbnail"></img>
-### Participants with predefined paths
-<img src="figures/additional_demo1.gif" width="40%" height="30%" title="aevph_demo_1" alt="aevph_demo_1"></img>
+<img src="figures/additional_demo0.gif" width="50%" height="50%" title="aevph_thumbnail" alt="aevph_thumbnail"></img>
+ 
+Case I: Participants with unstructured movement patterns
+
+<img src="figures/additional_demo1.gif" width="50%" height="50%" title="aevph_demo_1" alt="aevph_demo_1"></img>
+
+Case II: Participants with predefined paths 
 
 ## Citation
+```latex
 
+
+
+```
