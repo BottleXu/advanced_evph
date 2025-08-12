@@ -80,7 +80,13 @@ Case II: Participants with predefined paths
 
 ## Citation
 ```latex
-
-
-
+@ARTICLE{11122602,
+  author={Lee, Byung-Uk and Lee, Seung-Hwan},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Advanced EVPH: Advanced Omni-Directional Vector Polar Histogram for Robust Navigation in Crowded Environments}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/LRA.2025.3597898}}
 ```
