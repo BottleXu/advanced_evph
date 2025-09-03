@@ -85,8 +85,8 @@ Case II: Participants with predefined paths
   journal={IEEE Robotics and Automation Letters}, 
   title={Advanced EVPH: Advanced Omni-Directional Vector Polar Histogram for Robust Navigation in Crowded Environments}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-8},
+  volume={10},
+  number={10},
+  pages={10290-10297},
   doi={10.1109/LRA.2025.3597898}}
 ```
